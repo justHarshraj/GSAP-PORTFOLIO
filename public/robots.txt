@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://justharshraj.github.io/HARSHRAJ_Portfolio/sitemap.xml

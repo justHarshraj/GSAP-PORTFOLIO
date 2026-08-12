@@ -1,0 +1,17 @@
+{
+  "name": "Harsh Raj | Portfolio",
+  "short_name": "Harsh Raj",
+  "description": "Harsh Raj - Futuristic Portfolio showcasing innovative web development and machine learning projects.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070709",
+  "theme_color": "#070709",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

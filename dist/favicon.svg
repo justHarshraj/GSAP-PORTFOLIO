@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0c" />
+      <stop offset="50%" stop-color="#121216" />
+      <stop offset="100%" stop-color="#1a1a24" />
+    </linearGradient>
+    <!-- Metallic/Silver Gradient for Text -->
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="25%" stop-color="#e2e8f0" />
+      <stop offset="50%" stop-color="#cbd5e1" />
+      <stop offset="75%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+    <!-- Glow/Shadow Effect -->
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Outer Squircle with Glow & Gradient Border -->
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#bgGrad)" stroke="url(#silverGrad)" stroke-width="12" filter="url(#glow)" />
+  
+  <!-- Futuristic HR Logo Glyph -->
+  <g filter="url(#glow)">
+    <!-- Letter H -->
+    <path d="M120,140 L170,140 L170,230 L220,230 L220,140 L270,140 L270,372 L220,372 L220,280 L170,280 L170,372 L120,372 Z" fill="url(#silverGrad)" />
+    <!-- Letter R -->
+    <path d="M290,140 L385,140 C425,140 445,158 445,192 C445,225 425,242 385,242 L340,242 L340,372 L290,372 Z M340,182 L340,208 L380,208 C392,208 398,203 398,195 C398,187 392,182 380,182 Z" fill="url(#silverGrad)" />
+    <!-- Letter R Diagonal Leg -->
+    <path d="M340,242 L385,242 L445,372 L390,372 Z" fill="url(#silverGrad)" />
+  </g>
+</svg>
