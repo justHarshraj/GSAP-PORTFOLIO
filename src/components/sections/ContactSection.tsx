@@ -23,7 +23,7 @@ export const ContactSection = () => {
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
-    const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
+    const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || '49bd5dbb-c7a7-49bb-90db-3823ee78d88a';
 
     if (!accessKey || accessKey === 'YOUR_ACCESS_KEY_HERE') {
       console.error('Please set your VITE_WEB3FORMS_ACCESS_KEY in the .env file');
